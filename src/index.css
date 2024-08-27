@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Martian Mono", system-ui;
+  background-color: #F8F9FA;
+}
+
+.callToAction{
+  position: relative;
+}
+
+.callToAction::after, ::before{
+  content: '';
+  /* background-color: green; */
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.callToAction::after{
+  top: 0;
+  right: 0;
+  border-top: 2px solid orangered;
+  border-right: 2px solid orangered;
+}
+
+.callToAction::before{
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid orangered;
+  border-left: 2px solid orangered;
+}
+
+
+.card{
+  position: relative;
+  max-width: 400px;
+}
+
+.card::after, ::before{
+  content: '';
+  /* background-color: green; */
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.card::after{
+  top: 0;
+  right: 0;
+  border-top: 2px solid orangered;
+  border-right: 2px solid orangered;
+}
+
+.card::before{
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid orangered;
+  border-left: 2px solid orangered;
+}
