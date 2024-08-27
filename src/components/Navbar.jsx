@@ -51,7 +51,7 @@ function Navbar() {
         </div>
         <div className={`fixed h-fit w-full flex flex-col top-[0.6rem] z-[60] responsive-menu `}>
             <div className="w-full h-fit bg-[#F2F2F2] px-[24px] py-[24px]">
-                <nav className="flex w-full items-center justify-between px-[30px] py-[35px]">
+                <nav className="flex w-full items-center justify-between px-[15px] py-[35px]">
                     <h1 className="uppercase font-semibold">nexus web3</h1>
                     <button id="hamburgerClose" className="w-[32px] flex flex-col gap-2">
                         <div className="h-[2px] w-full bg-black"></div>
