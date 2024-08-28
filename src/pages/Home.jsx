@@ -169,10 +169,10 @@ function Home() {
         </section>
         <section className="flex flex-col w-full px-[20px] py-16 gap-10 md:max-w-[1400px] md:mx-auto"> 
             <h1 className="text-[16px] uppercase text-center md:text-[20px]">Join Our Thriving Community</h1>
-            <h6 className="text-left text-sm font-light">Join X,XXX active users</h6>
+            <h6 className="text-left text-sm font-light">Join 40,000 active users</h6>
             <div className="w-full overflow-hidden ">
             <div ref={cardsRef} className="flex flex-row gap-2  w-full">
-                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] md:max-w-[350px]">
+                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] md:max-w-[350px] min-w-[15rem]">
                     <div className="flex flex-row items-center gap-2">
                         <div className="w-[31px] rounded-full overflow-hidden">
                             <img src="/images/Ape Gang Trending NFT.jpeg" alt="" />
@@ -183,29 +183,29 @@ function Home() {
                         Building on @NexusWeb3 is a breeze. Their dev tools are top-notch. Excited for what&apos;s coming! #buidl
                     </p>
                 </div>
-                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] md:max-w-[350px]">
+                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] min-w-[15rem]  md:max-w-[350px]">
                     <div className="flex flex-row items-center gap-2">
                         <div className="w-[31px] rounded-full overflow-hidden">
-                            <img src="/images/Ape Gang Trending NFT.jpeg" alt="" />
+                            <img src="/images/make your nft pixel art.jpeg" alt="" />
                         </div>
-                        <h6 className="text-sm font-medium uppercase">BlockchainDev</h6>
+                        <h6 className="text-sm font-medium uppercase">degenKing</h6>
                     </div>
                     <p className="text-sm font-light">
-                        Building on @NexusWeb3 is a breeze. Their dev tools are top-notch. Excited for what&apos;s coming! #buidl
+                    Just tried @NexusWeb3&apos;s new cross-chain swap feature. Seamless experience! #Web3 #DeFi
                     </p>
                 </div>
-                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] md:max-w-[350px]">
+                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] min-w-[15rem] md:max-w-[350px]">
                     <div className="flex flex-row items-center gap-2">
                         <div className="w-[31px] rounded-full overflow-hidden">
-                            <img src="/images/Ape Gang Trending NFT.jpeg" alt="" />
+                            <img src="/images/Kaiju Kingz - Collection _ OpenSea.jpeg" alt="" />
                         </div>
-                        <h6 className="text-sm font-medium uppercase">BlockchainDev</h6>
+                        <h6 className="text-sm font-medium uppercase">Web3Educator</h6>
                     </div>
                     <p className="text-sm font-light">
-                        Building on @NexusWeb3 is a breeze. Their dev tools are top-notch. Excited for what&apos;s coming! #buidl
+                    Just finished another successful workshop on @NexusWeb3. The future of the internet is here, folks! #LearnWeb3
                     </p>
                 </div>
-                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] md:max-w-[350px]">
+                <div className="review-card flex flex-col gap-3 bg-white py-[23px] px-[15px] min-w-[15rem] md:max-w-[350px]">
                     <div className="flex flex-row items-center gap-2">
                         <div className="w-[31px] rounded-full overflow-hidden">
                             <img src="/images/Ape Gang Trending NFT.jpeg" alt="" />
@@ -234,7 +234,7 @@ function Home() {
             <h1 className="text-[13px] uppercase text-center">Stay Updated on the Web3 Revolution</h1>
             <h1 className="text-[13px] uppercase text-center">Get the latest news, updates, and exclusive offers straight to your inbox</h1>
             <div className="flex flex-row bg-white w-[300px] md:w-[450px] mx-auto">
-                <input className="text-[13px] py-[10px] px-3 flex-1" type="email" name="email" placeholder="EMAIL" id="" />
+                <input className="outline-none text-[13px] py-[10px] px-3 flex-1" type="email" name="email" placeholder="EMAIL" id="" />
                 <button className="uppercase text-[13px] bg-[#FF3A3A] text-white p-2" type="submit">submit</button>
             </div>
         </section>
